@@ -1,0 +1,7 @@
+{
+    "parent": "item/handheld",
+    "textures": {
+        "layer0":"tapestry:items/tapestry_bg",
+        "layer1":"tapestry:items/tapestry_fg"
+    }
+}

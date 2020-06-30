@@ -1,0 +1,28 @@
+{
+	"variants": {
+		"facing=north,wall=false,width=1":	{ "model": "tapestry:tapestry_bar_1" },
+		"facing=east,wall=false,width=1":	{ "model": "tapestry:tapestry_bar_1", "y": 90},
+		"facing=south,wall=false,width=1":	{ "model": "tapestry:tapestry_bar_1", "y": 180 },
+		"facing=west,wall=false,width=1":	{ "model": "tapestry:tapestry_bar_1", "y": 270 },
+		"facing=north,wall=false,width=2":	{ "model": "tapestry:tapestry_bar_2" },
+		"facing=east,wall=false,width=2":	{ "model": "tapestry:tapestry_bar_2", "y": 90},
+		"facing=south,wall=false,width=2":	{ "model": "tapestry:tapestry_bar_2", "y": 180 },
+		"facing=west,wall=false,width=2":	{ "model": "tapestry:tapestry_bar_2", "y": 270 },
+		"facing=north,wall=false,width=3":	{ "model": "tapestry:tapestry_bar_3" },
+		"facing=east,wall=false,width=3":	{ "model": "tapestry:tapestry_bar_3", "y": 90},
+		"facing=south,wall=false,width=3":	{ "model": "tapestry:tapestry_bar_3", "y": 180 },
+		"facing=west,wall=false,width=3":	{ "model": "tapestry:tapestry_bar_3", "y": 270 },
+		"facing=north,wall=true,width=1":	{ "model": "tapestry:tapestry_bar_1w" },
+		"facing=east,wall=true,width=1":	{ "model": "tapestry:tapestry_bar_1w", "y": 90},
+		"facing=south,wall=true,width=1":	{ "model": "tapestry:tapestry_bar_1w", "y": 180 },
+		"facing=west,wall=true,width=1":	{ "model": "tapestry:tapestry_bar_1w", "y": 270 },
+		"facing=north,wall=true,width=2":	{ "model": "tapestry:tapestry_bar_2w" },
+		"facing=east,wall=true,width=2":	{ "model": "tapestry:tapestry_bar_2w", "y": 90},
+		"facing=south,wall=true,width=2":	{ "model": "tapestry:tapestry_bar_2w", "y": 180 },
+		"facing=west,wall=true,width=2":	{ "model": "tapestry:tapestry_bar_2w", "y": 270 },
+		"facing=north,wall=true,width=3":	{ "model": "tapestry:tapestry_bar_3w" },
+		"facing=east,wall=true,width=3":	{ "model": "tapestry:tapestry_bar_3w", "y": 90},
+		"facing=south,wall=true,width=3":	{ "model": "tapestry:tapestry_bar_3w", "y": 180 },
+		"facing=west,wall=true,width=3":	{ "model": "tapestry:tapestry_bar_3w", "y": 270 }
+	}
+}
