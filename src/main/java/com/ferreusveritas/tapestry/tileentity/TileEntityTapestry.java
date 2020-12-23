@@ -47,6 +47,8 @@ public class TileEntityTapestry extends TileEntity {
 		float midY = pos.getY() + 0.5f;
 		float midZ = pos.getZ() + 0.5f;
 		
+		//return INFINITE_EXTENT_AABB;
+		
 		return new AxisAlignedBB(
 				midX - (width / 2.0f),
 				midY - length,
@@ -56,6 +58,13 @@ public class TileEntityTapestry extends TileEntity {
 				midZ + 0.5f);
 	}
 	
+    @SideOnly(Side.CLIENT)
+	@Override
+	public double getMaxRenderDistanceSquared() {
+		//return super.getMaxRenderDistanceSquared();
+		return 65536;//256 Blocks or 16 chunks
+	}
+    
 	public int getLength() {
 		return length;
 	}
